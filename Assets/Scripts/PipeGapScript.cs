@@ -9,6 +9,7 @@ enum Layer {
 public class PipeGapScript : MonoBehaviour {
     public GameManagerScript gameManagerScript;
 
+    // Start is called before the first frame update
     void Start() {
         gameManagerScript = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerScript>();
     }
